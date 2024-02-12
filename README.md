@@ -348,11 +348,11 @@ $$
 
 $$
 \begin{aligned}
-$w^{(y)}=w^{(y)}-\epsilon\nabla _{w{(y)}}\^{\text{batch}} C \\
-$b^{(y)}=b^{(y)}-\epsilon\nabla _{b{(y)}}\^{\text{batch}} C \\
-$w^{(2)}=w^{(2)}-\epsilon\nabla _{w{(2)}}\^{\text{batch}} C \\
-$b^{(2)}=b^{(2)}-\epsilon\nabla _{b{(2)}}\^{\text{batch}} C \\
-$w^{(1)}=w^{(1)}-\epsilon\nabla _{w{(1)}}\^{\text{batch}} C \\
-$b^{(1)}=b^{(1)}-\epsilon\nabla _{b{(1)}}\^{\text{batch}} C \\
+$w^{(y)} = w^{(y)}-\epsilon\nabla _{w{(y)}}\^{\text{batch}} C \\
+$b^{(y)} = b^{(y)}-\epsilon\nabla _{b{(y)}}\^{\text{batch}} C \\
+$w^{(2)} = w^{(2)}-\epsilon\nabla _{w{(2)}}\^{\text{batch}} C \\
+$b^{(2)} = b^{(2)}-\epsilon\nabla _{b{(2)}}\^{\text{batch}} C \\
+$w^{(1)} = w^{(1)}-\epsilon\nabla _{w{(1)}}\^{\text{batch}} C \\
+$b^{(1)} = b^{(1)}-\epsilon\nabla _{b{(1)}}\^{\text{batch}} C \\
 \end{aligned}
 $$
