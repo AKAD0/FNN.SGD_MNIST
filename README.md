@@ -181,8 +181,10 @@ $$
 &=
 \left[ 
 \begin{matrix} 
-asdf \\
-asdf
+a^{(y)}_1(1-a^{(y)}_1)\\
+a^{(y)}_1a^{(y)}_2\\
+~...~\\
+a^{(y)}_1a^{(y)}_{10}
 \end{matrix}
 \right] \\
 &=
