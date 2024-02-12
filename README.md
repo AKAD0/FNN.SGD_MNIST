@@ -19,7 +19,9 @@ Apparatus of stochastic gradient descent.
 Project describes the apparatus in 3 parts: Model, Computation Graph, Back Propagation and Gradient Descent. Describtion of every part is provided below.
 
 ## 3.1. Model
-![alt text](https://github.com/AKAD0/FNN_MNIST/blob/master/Fig1.png)
+<p align="center">
+  <img src="https://github.com/AKAD0/FNN_MNIST/blob/master/Fig1.png">
+</p>
 
 $$
 \text{Fig.1: Topology of the architecture}
