@@ -50,7 +50,7 @@ $$
 &i=10-\text{number of predicting classes}~f^{(1)} \\
 \end{aligned}
 $$
-  <br><br>
+‎<br><br>
 
 $$
 a^{(y)}=softmax(z^{(y)})= \frac{e^{z_i^{(y)}}}{\sum\limits_{j=1}^{10} e^{z_j^{(y)}}}
@@ -64,7 +64,7 @@ $$
 &j=10-\text{number of predicting classes}~f^{(1)} \\
 \end{aligned}
 $$
-  <br><br>
+‎<br><br>
 
 $$
 z^{(y)}=\sum_{i=1}^{10}(w_i^{(y)T}a_i^{(2)})+b^{(y)T}
@@ -79,7 +79,7 @@ $$
 &a^{(2)}-\text{activation function of the 2nd hidden layer} \\
 \end{aligned}
 $$
-  <br><br>
+‎<br><br>
 
 $$
 a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=
@@ -96,7 +96,7 @@ $$
 &z^{(2)}-\text{input function (affine transformation) of 2nd hidden layer} \\
 \end{aligned}
 $$
-  <br><br>
+‎<br><br>
 
 $$
 z^{(2)}=\sum_{i=1}^{10}(w_i^{(2)T}a_i^{(1)})+b^{(2)T}
@@ -111,7 +111,7 @@ $$
 &a^{(1)}-\text{activation function of the 1st hidden layer} \\
 \end{aligned}
 $$
-  <br><br>
+‎<br><br>
 
 $$
 a^{(1)}=ReLU=max\lbrace 0,z^{(1)}\rbrace=
@@ -128,7 +128,7 @@ $$
 &z^{(1)}-\text{input function (affine transformation) of 1st hidden layer} \\
 \end{aligned}
 $$
-  <br><br>
+‎<br><br>
 
 $$
 z^{(1)}=\sum_{i=1}^{784}(w_i^{(1)T}x_i)+b^{(1)T}
