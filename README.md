@@ -10,7 +10,7 @@
 5. Results
 
 # 1. Describtion
-Description of the Neural Network of FNN architecture to solve MNIST classification problem. This project is an exercise of the idea of gradient descend and offers only mathematical approach whereas provided program is a pseudo-code of described functions.
+This project is a thorough description of the Neural Network of FNN architecture to solve MNIST classification problem and an exercise of the idea of gradient descend. It offers only mathematical approach whereas provided program is a pseudo-code of described functions.
 
 # 2. Problem
 Apparatus of stochastic gradient descent on the example of MNIST problem.
