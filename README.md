@@ -329,7 +329,7 @@ $$
 $$
 
 ### 3.4. Stochastic Gradient Descent:
-Gradient Descent in essence is a process of repeated steps of subtractions from current Theta parameters the mean value over every found gradients and multiplied with an epsilon coefficient to set learning 'rate', thus approximating to the local minimum of the Cost function.
+Gradient Descent in essence is a process of repeated steps of subtractions from current Theta parameters the mean value over every found gradients of every sample and then multiplied with an epsilon coefficient to set learning 'rate', thus approximating to the local minimum of the Cost function.
 
 Stochastic Gradient Descent modifies vanilla approach in order to drastically accelerate computation via dividing the whole dataset into randomly (stochastically) ordered 'mini-batches' where a processing of a single batch constitutes single step. Since mini-batch is way smaller than a whole dataset, it's processing takes less time, however with less precision.
 
