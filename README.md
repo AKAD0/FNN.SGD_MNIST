@@ -345,7 +345,7 @@ $$
 $$
 
 $$
-\text{where K - number of samples in mini-batch}
+\text{where K $-$ number of samples in mini-batch}
 $$
 
 ‎<br>
