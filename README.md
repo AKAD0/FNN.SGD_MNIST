@@ -82,7 +82,7 @@ $$
 
 $$
 ~\\~
-a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=\lbrace
+a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=
 \begin{Bmatrix}
 z^{(2)}, z^{(2)}>0 \\
 0, z^{(2)}≤0
