@@ -319,11 +319,11 @@ $$
 
 $$
 \begin{aligned}
-\nabla _w{(y)} C = \frac{C}{w^{(y)}} = S_1a^{(2)} \\
-\nabla _b{(y)} C = \frac{C}{b^{(y)}} = S_1 \\
-\nabla _w{(2)} C = \frac{C}{w^{(2)}} = S_1 S_2 a^{(1)} \\
-\nabla _b{(2)} C = \frac{C}{b^{(2)}} = S_1 S_2 \\
-\nabla _w{(1)} C = \frac{C}{w^{(1)}} = S_1 S_2 S_3 x \\
-\nabla _b{(1)} C = \frac{C}{b^{(1)}} = S_1 S_2 S_3 \\
+&\nabla _w{(y)} C = \frac{C}{w^{(y)}} = S_1a^{(2)} \\
+&\nabla _b{(y)} C = \frac{C}{b^{(y)}} = S_1 \\
+&\nabla _w{(2)} C = \frac{C}{w^{(2)}} = S_1 S_2 a^{(1)} \\
+&\nabla _b{(2)} C = \frac{C}{b^{(2)}} = S_1 S_2 \\
+&\nabla _w{(1)} C = \frac{C}{w^{(1)}} = S_1 S_2 S_3 x \\
+&\nabla _b{(1)} C = \frac{C}{b^{(1)}} = S_1 S_2 S_3 \\
 \end{aligned}
 $$
