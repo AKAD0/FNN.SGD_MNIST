@@ -161,7 +161,7 @@ It is done in two steps:
 1) Find all the derivatives in the computational graph for further use in the chain rule.
 2) Find said 'Theta' derivatives via chain rule.
 
-#### First step. Finding every derivative in the computational graph.
+#### First step. Finding every derivative in the computation graph.
 $$
 \begin{aligned}
 \text{1)}~\frac{dC}{da^{(y)}}~
