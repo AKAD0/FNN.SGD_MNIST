@@ -36,7 +36,7 @@ $$
 
 $w$ and $b$ parameters are vectors of weights and biases respectively. $y$ is a label mark for $\hat{y}=a^{(y)}$ to compare to.
 
-‎<br><br>
+‎<br>
 
 $$
 C=MSE=\frac{1}{10}\sum_{i=1}^{10}(y_i-a_i^{(y)})^2
@@ -52,7 +52,7 @@ $$
 \end{aligned}
 $$
 
-‎<br><br>
+‎<br>
 
 $$
 a^{(y)}=softmax(z^{(y)})= \frac{e^{z_i^{(y)}}}{\sum\limits_{j=1}^{10} e^{z_j^{(y)}}}
@@ -67,7 +67,7 @@ $$
 \end{aligned}
 $$
 
-‎<br><br>
+‎<br>
 
 $$
 z^{(y)}=\sum_{i=1}^{10}(w_i^{(y)T}a_i^{(2)})+b^{(y)T}
@@ -83,7 +83,7 @@ $$
 \end{aligned}
 $$
 
-‎<br><br>
+‎<br>
 
 $$
 a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=
@@ -101,7 +101,7 @@ $$
 \end{aligned}
 $$
 
-‎<br><br>
+‎<br>
 
 $$
 z^{(2)}=\sum_{i=1}^{10}(w_i^{(2)T}a_i^{(1)})+b^{(2)T}
@@ -117,7 +117,7 @@ $$
 \end{aligned}
 $$
 
-‎<br><br>
+‎<br>
 
 $$
 a^{(1)}=ReLU=max\lbrace 0,z^{(1)}\rbrace=
@@ -135,7 +135,7 @@ $$
 \end{aligned}
 $$
 
-‎<br><br>
+‎<br>
 
 $$
 z^{(1)}=\sum_{i=1}^{784}(w_i^{(1)T}x_i)+b^{(1)T}
