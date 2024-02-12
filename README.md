@@ -164,6 +164,9 @@ It is done in two steps:
 #### First step. Finding every derivative in the computational graph.
 $$
 \begin{aligned}
+$$
+$$
+\begin{aligned}
 \text{1)}~\frac{dC}{da^{(y)}}~
 &=\bigg| \frac{d\frac{1}{10}((y_1-a_1)^2+(y_2-a_2)^2+...+(y_10-a_10)^2)}{da_1} \\
 &= -\frac{1}{10}2(y_1-a_1)=\frac{-2(y_1-a_1)}{10}=\frac{-(y_1-a_1)}{5} \bigg|\\
@@ -268,6 +271,9 @@ $$
 
 $$
 \text{12)}~\frac{dz^{(1)}}{db^{(1)}}=1
+$$
+$$
+\end{aligned}
 $$
 
 #### Second step. finding 'Theta' derivatives via Chain rule.
