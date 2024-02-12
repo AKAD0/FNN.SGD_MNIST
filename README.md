@@ -308,6 +308,14 @@ $$
 ‎<br>
 
 $$
+\begin{aligned}
+&z^{(2)}-\text{input function (affine transformation) of 2nd hidden layer} \\
+&w^{(2)}-\text{weights vector of 2nd hidden layer} \\
+&b^{(2)T}-\text{biases vector of 2nd hidden layer} \\
+&a^{(1)}-\text{activation function of the 1st hidden layer} \\
+\end{aligned}
+$$
+$$
 S_1 = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} = \frac{-(y-a^{(y)})}{5}DZ^{(y)} \\
 S_2 = S_1 \frac{dz^{(y)}}{da^{(2)}} \frac{da^{(2)}}{dz^{(2)}} = S_1 w^{(y)} 𝟙_{R>0}(z^{2}) \\
 S_3 = S_1 S_2 \frac{dz^{(2)}}{da^{(1)}} \frac{da^{(1)}}{dz^{(1)}} = S_1 S_2 w^{(2)} 𝟙_{R>0}(z^{1}) \\
