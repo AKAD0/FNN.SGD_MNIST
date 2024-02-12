@@ -336,11 +336,11 @@ Stochastic Gradient Descent modifies vanilla approach in order to drastically ac
 $$
 \begin{aligned}
 &\nabla ^{*}_{w{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(y)}i} C \\
-&\nabla _{b{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(y)}i} C \\
-&\nabla _{w{(2)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(2)}i} C \\
-&\nabla _{b{(2)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(2)}i} C \\
-&\nabla _{w{(1)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(1)}i} C \\
-&\nabla _{b{(1)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(1)}i} C \\
+&\nabla ^{*}_{b{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(y)}i} C \\
+&\nabla ^{*}_{w{(2)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(2)}i} C \\
+&\nabla ^{*}_{b{(2)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(2)}i} C \\
+&\nabla ^{*}_{w{(1)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(1)}i} C \\
+&\nabla ^{*}_{b{(1)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(1)}i} C \\
 \end{aligned}
 $$
 
@@ -348,11 +348,11 @@ $$
 
 $$
 \begin{aligned}
-$w^{(y)}=w^{(y)}-\epsilon\nabla ^*_{w{(y)}} C
-$b^{(y)}=b^{(y)}-\epsilon\nabla ^*_{b{(y)}} C
-$w^{(2)}=w^{(2)}-\epsilon\nabla ^*_{w{(2)}} C
-$b^{(2)}=b^{(2)}-\epsilon\nabla ^*_{b{(2)}} C
-$w^{(1)}=w^{(1)}-\epsilon\nabla ^*_{w{(1)}} C
-$b^{(1)}=b^{(1)}-\epsilon\nabla ^*_{b{(1)}} C
+$w^{(y)}=w^{(y)}-\epsilon\nabla ^{*}_{w{(y)}} C
+$b^{(y)}=b^{(y)}-\epsilon\nabla ^{*}_{b{(y)}} C
+$w^{(2)}=w^{(2)}-\epsilon\nabla ^{*}_{w{(2)}} C
+$b^{(2)}=b^{(2)}-\epsilon\nabla ^{*}_{b{(2)}} C
+$w^{(1)}=w^{(1)}-\epsilon\nabla ^{*}_{w{(1)}} C
+$b^{(1)}=b^{(1)}-\epsilon\nabla ^{*}_{b{(1)}} C
 \end{aligned}
 $$
