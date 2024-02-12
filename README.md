@@ -178,8 +178,10 @@ $$
 \begin{aligned}
 \text{2)}~\frac{da^{(y)}}{dz^{(y)}}=DZ^{(y)}_{R^{10}}~
 &=\bigg| \text{Quotient rule} \bigg| \\
-&=-\frac{1}{10}2(y_1-a_1)=\frac{-2(y_1-a_1)}{10}=\frac{-(y_1-a_1)}{5} \bigg|\\
-&=\bigg[ \frac{-(y_1-a_1)}{5},~...~,\frac{-(y_10-a_10)}{5} \bigg]^T\\
-&=\frac{-(y-a^{(y)})}{5} \\
+&=
+\begin{Bmatrix}
+z^{(2)},~z^{(2)}>0 \\
+0,~z^{(2)}≤0
+\end{Bmatrix}
 \end{aligned}
 $$
