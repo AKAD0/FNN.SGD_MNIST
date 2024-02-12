@@ -361,6 +361,10 @@ $$
 \end{aligned}
 $$
 
+$$
+\text{where $\epsilon$ $-$ learning rate}
+$$
+
 # 4. Code
 The listing of the pseudo-code for described algorythm is provided in the '/FNN_MNIST.ipynb' file.
 
