@@ -369,4 +369,4 @@ $$
 The listing of the pseudo-code for described algorythm is provided in the '/FNN_MNIST.ipynb' file.
 
 # 5. Results
-The provided approach allows a developer to thoroughly understand and implement an algorythm of the FNN architecture for the MNIST classification problem.
+The provided approach allows a developer to thoroughly understand and implement an algorythm of the FNN architecture for the MNIST classification problem with the optimization of Stochastic Gradient Descent.
