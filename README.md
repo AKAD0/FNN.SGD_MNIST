@@ -150,11 +150,11 @@ $$
 Back Propagation is a process of finding derivatives of the Cost function with respect to the Theta parameters - weights and biases.
 
 $$
-\delta(x)\equiv\left\{\begin{aligned}
-0,\quad
-\text{if}\;x\ne 0\\
-\infty,\quad
-\text{if}\; x=0
-\end{aligned}\right\}\quad
-\text{with}\quad\int_{-\infty}^{+\infty}\delta(x)\;dx=1.
+\delta(x)\equiv
+\begin{Bmatrix}
+0,      & \text{if $x\ne 0$} \\
+\infty, & \text{if $x=0$}
+\end{Bmatrix}
+\quad\text{with}\quad
+\int_{-\infty}^{+\infty}\delta(x)\,dx=1.
 $$
