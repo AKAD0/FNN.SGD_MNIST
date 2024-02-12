@@ -187,9 +187,7 @@ asdf
 &=
 \left[
 \begin{matrix} 
-\sum\limits_{k=1}^{10} (a^{(y)}_ka^{(y)}_1)-a^{(y)}_1a^{(y)}_1+a^{(y)}_1(1-a^{(y)}_1) \\
-~...~ \\
-\sum\limits_{k=1}^{10} (a^{(y)}_ka^{(y)}_{10})-a^{(y)}_{10}a^{(y)}_{10}+a^{(y)}_{10}(1-a^{(y)}_{10})
+asdf
 \end{matrix}
 \right] 
 \end{aligned}
