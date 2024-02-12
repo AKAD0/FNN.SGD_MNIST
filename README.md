@@ -181,13 +181,13 @@ $$
 &=
 \left[ 
 \begin{matrix} 
-a^{(y)}_1 \\
+a^{(y)}_1 (1-a^{(y)}_1) \\
 \end{matrix}
 \right] \\
 &=
 \left[
 \begin{matrix} 
-a^{(y)}_1 \\
+a^{(y)}_1 (1-a^{(y)}_1) \\
 \end{matrix}
 \right] 
 \end{aligned}
