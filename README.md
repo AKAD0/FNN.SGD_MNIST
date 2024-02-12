@@ -16,7 +16,7 @@ This project is a thorough description of the Neural Network of FNN architecture
 Apparatus of stochastic gradient descent on the example of MNIST problem.
 
 # 3. Method
-Project describes the apparatus in 3 parts: Model, Computation Graph, Back Propagation and Gradient Descent. Describtion of every part is provided below.
+Project describes the apparatus in 4 parts: Model, Computation Graph, Back Propagation and Gradient Descent. Describtion of every part is provided below.
 
 ## 3.1. Model
 <p align="center">
