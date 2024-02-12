@@ -10,7 +10,7 @@
 5. Results
 
 # 1. Describtion
-This project pursues the goal of consolidating the understanding the apparatus of gradient descent on the example of the Neural Network of FNN architecture designed for MNIST classification problem. It offers only mathematical approach whereas provided program is a python pseudo-code of described functions.
+This project pursues the goal of consolidating the understanding of the apparatus of gradient descent on the example of the Neural Network of FNN architecture designed for MNIST classification problem. It offers only mathematical approach whereas provided program is a python pseudo-code of described functions.
 
 # 2. Problem
 Apparatus of stochastic gradient descent on the example of MNIST problem.
