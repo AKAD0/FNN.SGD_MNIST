@@ -13,7 +13,7 @@
 Description of the Neural Network of FNN architecture to solve MNIST classification problem. This project is an exercise of the idea of gradient descend and offers only mathematical approach whereas provided program is a pseudo-code showing the concept.
 
 # 2. Problem
-Apparatus of stochastic gradient descent.
+Apparatus of stochastic gradient descent on the example of MNIST problem.
 
 # 3. Method
 Project describes the apparatus in 3 parts: Model, Computation Graph, Back Propagation and Gradient Descent. Describtion of every part is provided below.
@@ -360,3 +360,9 @@ $$
 &b^{(1)} = b^{(1)}-\epsilon\nabla _{b{(1)}}\^{\text{batch}} C \\
 \end{aligned}
 $$
+
+# 4. Code
+The listing of the pseudo-code for described algorythm is provided in the '/FNN_MNIST.ipynb' file.
+
+# 5. Results
+The provided approach allows a developer to thoroughly understand and implement an algorythm of the FNN architecture for the MNIST classification problem.
