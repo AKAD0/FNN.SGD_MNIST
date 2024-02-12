@@ -335,8 +335,8 @@ Stochastic Gradient Descent modifies vanilla approach in order to drastically ac
 
 $$
 \begin{aligned}
-&\nabla \^{*}_{w{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(y)}i} C \\
-&\nabla \^{*}_{b{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(y)}i} C \\
+&\nabla _{w{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(y)}i} C \\
+&\nabla _{b{(y)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(y)}i} C \\
 &\nabla _{w{(2)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(2)}i} C \\
 &\nabla _{b{(2)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{b{(2)}i} C \\
 &\nabla _{w{(1)}} C = \frac{1}{K} \sum\limits\_{i=1}\^{K} \nabla _{w{(1)}i} C \\
