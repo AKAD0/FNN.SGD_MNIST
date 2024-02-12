@@ -20,7 +20,7 @@ Project describes the apparatus in 4 parts: Model, Computation Graph, Back Propa
 
 ## 3.1. Model
 <p align="center">
-  <img src="https://github.com/AKAD0/FNN_SGD/blob/master/Fig1.png">
+  <img src="https://github.com/AKAD0/FNN.SGD_MNIST/blob/master/Fig1.png">
 </p>
 
 $$
@@ -31,7 +31,7 @@ Topology consists of 2 hidden layers 10 blocks each, 1 output layer of 10 blocks
 
 ### 3.2. Computation Graph:
 <p align="center">
-  <img src="https://github.com/AKAD0/FNN_SGD/blob/master/Fig2_v2.png">
+  <img src="https://github.com/AKAD0/FNN.SGD_MNIST/blob/master/Fig2_v2.png">
 </p>
 
 $$
@@ -366,7 +366,7 @@ $$
 $$
 
 # 4. Code
-The listing of the pseudo-code for described algorythm is provided in the '/FNN_SGD.ipynb' file.
+The listing of the pseudo-code for described algorythm is provided in the '/FNN.SGD_MNIST.ipynb' file.
 
 # 5. Results
 The provided approach allows a developer to thoroughly understand and implement an algorythm of the FNN architecture for the MNIST classification problem with the optimization of Stochastic Gradient Descent.
