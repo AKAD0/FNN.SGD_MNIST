@@ -164,18 +164,17 @@ It is done in two steps:
 #### First step. Finding every derivative in the computational graph.
 $$
 \begin{aligned}
-\begin{aligned}
 \text{1)}~\frac{dC}{da^{(y)}}~
 &=\bigg| \frac{d\frac{1}{10}((y_1-a_1)^2+(y_2-a_2)^2+...+(y_10-a_10)^2)}{da_1} \\
 &= -\frac{1}{10}2(y_1-a_1)=\frac{-2(y_1-a_1)}{10}=\frac{-(y_1-a_1)}{5} \bigg|\\
 &=\left[ \frac{-(y_1-a_1)}{5},~...~,\frac{-(y_10-a_10)}{5} \right]^T\\
 &=\frac{-(y-a^{(y)})}{5} \\
 \end{aligned}
-
+$$
 
 ‎<br>
 
-
+$$
 \begin{aligned}
 \text{2)}\frac{da^{(y)}}{dz^{(y)}}=DZ^{(y)}_{R^{10}}
 &=\left| \text{Quotient rule} \right| \\
@@ -197,17 +196,17 @@ a^{(y)}_1a^{(y)}\_{10},  & a^{(y)}_2a^{(y)}\_{10},  & ~...~,  & a^{(y)}\_{10}(1-
 \end{matrix}
 \right] 
 \end{aligned}
-
+$$
 
 ‎<br>
 
-
+$$
 \text{3)}~\frac{dz^{(y)}}{da^{(2)}}=w^{(y)}
-
+$$
 
 ‎<br>
 
-
+$$
 \text{4)}~\frac{da^{(2)}}{dz^{(2)}}= 
 \begin{Bmatrix}
   1,~z^{(2)}>0 \\
@@ -215,17 +214,17 @@ a^{(y)}_1a^{(y)}\_{10},  & a^{(y)}_2a^{(y)}\_{10},  & ~...~,  & a^{(y)}\_{10}(1-
 \end{Bmatrix}
 \implies
 𝟙_{R>0}(z^{(2)})
-
+$$
 
 ‎<br>
 
-
+$$
 \text{5)}~\frac{dz^{(2)}}{da^{(1)}}=w^{(2)}
-
+$$
 
 ‎<br>
 
-
+$$
 \text{6)}~\frac{da^{(1)}}{dz^{(1)}}= 
 \begin{Bmatrix}
   1,~z^{(1)}>0 \\
@@ -233,43 +232,42 @@ a^{(y)}_1a^{(y)}\_{10},  & a^{(y)}_2a^{(y)}\_{10},  & ~...~,  & a^{(y)}\_{10}(1-
 \end{Bmatrix}
 \implies
 𝟙_{R>0}(z^{(1)})
-
+$$
 
 ‎<br>
 
-
+$$
 \text{7)}~\frac{dz^{(y)}}{dw^{(y)}}=a^{(2)}
-
+$$
 
 ‎<br>
 
-
+$$
 \text{8)}~\frac{dz^{(y)}}{db^{(y)}}=1
-
+$$
 
 ‎<br>
 
-
+$$
 \text{9)}~\frac{dz^{(2)}}{dw^{(2)}}=a^{(1)}
-
+$$
 
 ‎<br>
 
-
+$$
 \text{10)}~\frac{dz^{(2)}}{db^{(2)}}=1
-
+$$
 
 ‎<br>
 
-
+$$
 \text{11)}~\frac{dz^{(1)}}{dw^{(1)}}=x
-
+$$
 
 ‎<br>
 
-
+$$
 \text{12)}~\frac{dz^{(1)}}{db^{(1)}}=1
-\end{aligned}
 $$
 
 #### Second step. finding 'Theta' derivatives via Chain rule.
