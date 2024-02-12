@@ -35,10 +35,9 @@ $$
 $$
 
 $w$ and $b$ parameters are vectors of weights and biases respectively. $y$ is a label mark for $\hat{y}=a^{(y)}$ to compare to.
+$\par\par$
 
 $$
-~\\
-~\\
 C=MSE=\frac{1}{10}\sum_{i=1}^{10}(y_i-a_i^{(y)})^2
 $$
 
@@ -51,10 +50,9 @@ $$
 &i=10-\text{number of predicting classes}~f^{(1)} \\
 \end{aligned}
 $$
+$\par\par$
 
 $$
-~\\
-~\\
 a^{(y)}=softmax(z^{(y)})= \frac{e^{z_i^{(y)}}}{\sum\limits_{j=1}^{10} e^{z_j^{(y)}}}
 $$
 
@@ -66,10 +64,9 @@ $$
 &j=10-\text{number of predicting classes}~f^{(1)} \\
 \end{aligned}
 $$
+$\par\par$
 
 $$
-~\\
-~\\
 z^{(y)}=\sum_{i=1}^{10}(w_i^{(y)T}a_i^{(2)})+b^{(y)T}
 $$
 
