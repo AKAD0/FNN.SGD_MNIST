@@ -161,7 +161,7 @@ It is done in two steps:
 1) Find all the derivatives in the computational graph for further use in the chain rule.
 2) Find said 'Theta' derivatives via chain rule.
 
-#### First step.
+#### First step. Finding every derivative in the computational graph.
 $$
 \begin{aligned}
 \text{1)}~\frac{dC}{da^{(y)}}~
@@ -268,4 +268,53 @@ $$
 
 $$
 \text{12)}~\frac{dz^{(1)}}{db^{(1)}}=1
+$$
+
+#### Second step. finding 'Theta' derivatives via Chain rule.
+$$
+\text{1)}~\frac{dC}{dw^{(y)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{dw^{(y)}}
+$$
+
+‎<br>
+
+$$
+\text{2)}~\frac{dC}{db^{(y)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{db^{(y)}}
+$$
+
+‎<br>
+
+$$
+\text{3)}~\frac{dC}{dw^{(2)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{da^{(2)}} \frac{da^{(2)}}{dz^{(2)}} \frac{dz^{(2)}}{dw^{(2)}}
+$$
+
+‎<br>
+
+$$
+\text{4)}~\frac{dC}{db^{(2)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{da^{(2)}} \frac{da^{(2)}}{dz^{(2)}} \frac{dz^{(2)}}{db^{(2)}}
+$$
+
+‎<br>
+
+$$
+\text{5)}~\frac{dC}{dw^{(1)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{da^{(2)}} \frac{da^{(2)}}{dz^{(2)}} \frac{dz^{(2)}}{da^{(1)}} \frac{da^{(1)}}{dz^{(1)}} \frac{dz^{(1)}}{dw^{(1)}}
+$$
+
+‎<br>
+
+$$
+\text{6)}~\frac{dC}{db^{(1)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{da^{(2)}} \frac{da^{(2)}}{dz^{(2)}} \frac{dz^{(2)}}{da^{(1)}} \frac{da^{(1)}}{dz^{(1)}} \frac{dz^{(1)}}{db^{(1)}}
+$$
+
+‎<br>
+
+$$
+S_1 = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} = \frac{-(y-a^{(y)})}{5}DZ^{(y)} \\
+S_2 = S_1 \frac{dz^{(y)}}{da^{(2)}} \frac{da^{(2)}}{dz^{(2)}} = S_1 w^{(y)} 𝟙_{R>0}(z^{2}) \\
+S_3 = S_1 S_2 \frac{dz^{(2)}}{da^{(1)}} \frac{da^{(1)}}{dz^{(1)}} = S_1 S_2 w^{(2)} 𝟙_{R>0}(z^{1}) \\
+$$
+
+‎<br>
+
+$$
+\nabla _w{(y)} = asdf
 $$
