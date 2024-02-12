@@ -83,10 +83,10 @@ $$
 $$
 ~\\~
 a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=\lbrace
-\begin{array}{l} 
+\begin{Bmatrix}
 z^{(2)}, z^{(2)}>0 \\
 0, z^{(2)}≤0
-\end{array}
+\end{Bmatrix}
 $$
 
 $$
@@ -115,12 +115,10 @@ $$
 $$
 ~\\~
 a^{(1)}=ReLU=max\lbrace 0,z^{(1)}\rbrace=
-\left\{
-\begin{array}{l} 
+\begin{Bmatrix}
 z^{(1)}, z^{(1)}>0 \\
 0, z^{(1)}≤0
-\end{array}
-\right.
+\end{Bmatrix}
 $$
 
 $$
@@ -148,13 +146,3 @@ $$
 
 ### 3.3. Back Propagation:
 Back Propagation is a process of finding derivatives of the Cost function with respect to the Theta parameters - weights and biases.
-
-$$
-\delta(x)\equiv
-\begin{Bmatrix}
-0,      & \text{if $x\ne 0$} \\
-\infty, & \text{if $x=0$}
-\end{Bmatrix}
-\quad\text{with}\quad
-\int_{-\infty}^{+\infty}\delta(x)\,dx=1.
-$$
