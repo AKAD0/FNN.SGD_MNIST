@@ -179,9 +179,6 @@ $$
 \text{2)}~\frac{da^{(y)}}{dz^{(y)}}=DZ^{(y)}_{R^{10}}~
 &=\bigg| \text{Quotient rule} \bigg| \\
 &=
-\begin{Bmatrix}
-z^{(2)},~z^{(2)}>0 \\
-0,~z^{(2)}≤0
-\end{Bmatrix}
+\left[  \frac{ N } { \left( \frac{L}{p} \right)  - (m+n) }  \right]
 \end{aligned}
 $$
