@@ -157,3 +157,29 @@ $$
 
 ### 3.3. Back Propagation:
 Back Propagation is a process of finding derivatives of the Cost function with respect to the Theta parameters - weights and biases.
+It is done in two steps:
+1) Find all the derivatives in the computational graph for further use in the chain rule.
+2) Find said 'Theta' derivatives via chain rule.
+
+#### First step.
+$$
+\begin{aligned}
+\text{1)}~\frac{dC}{da^{(y)}}~
+&=\bigg| \frac{d\frac{1}{10}((y_1-a_1)^2+(y_2-a_2)^2+...+(y_10-a_10)^2)}{da_1} \\
+&=-\frac{1}{10}2(y_1-a_1)=\frac{-2(y_1-a_1)}{10}=\frac{-(y_1-a_1)}{5} \bigg|\\
+&=\bigg[ \frac{-(y_1-a_1)}{5},~...~,\frac{-(y_10-a_10)}{5} \bigg]^T\\
+&=\frac{-(y-a^{(y)})}{5} \\
+\end{aligned}
+$$
+
+‎<br>
+
+$$
+\begin{aligned}
+\text{2)}~\frac{da^{(y)}}{dz^{(y)}}=DZ^{(y)}_{R^{10}}~
+&=\bigg| \text{Quotient rule} \bigg| \\
+&=-\frac{1}{10}2(y_1-a_1)=\frac{-2(y_1-a_1)}{10}=\frac{-(y_1-a_1)}{5} \bigg|\\
+&=\bigg[ \frac{-(y_1-a_1)}{5},~...~,\frac{-(y_10-a_10)}{5} \bigg]^T\\
+&=\frac{-(y-a^{(y)})}{5} \\
+\end{aligned}
+$$
