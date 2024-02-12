@@ -10,7 +10,7 @@
 5. Results
 
 # 1. Describtion
-This project is a thorough description of the Neural Network of FNN architecture to solve MNIST classification problem and an exercise of the idea of gradient descend. It offers only mathematical approach whereas provided program is a pseudo-code of described functions.
+This project pursues the goal of consolidating the understanding the apparatus of gradient descent on the example of the Neural Network of FNN architecture designed for MNIST classification problem. It offers only mathematical approach whereas provided program is a python pseudo-code of described functions.
 
 # 2. Problem
 Apparatus of stochastic gradient descent on the example of MNIST problem.
@@ -158,7 +158,7 @@ $$
 ### 3.3. Back Propagation:
 Back Propagation is a process of finding derivatives of the Cost function with respect to the Theta parameters - weights and biases.
 It is done in two steps:
-1) Find all the derivatives in the computational graph for further use in the chain rule.
+1) Find all the derivatives in the computation graph for further use in the chain rule.
 2) Find said 'Theta' derivatives via chain rule.
 
 #### First step. Finding every derivative in the computation graph.
@@ -329,9 +329,9 @@ $$
 $$
 
 ### 3.4. Stochastic Gradient Descent:
-Gradient Descent in essence is a process of repeated steps of subtractions from current Theta parameters the mean value over every found gradients of every sample and then multiplied with an epsilon coefficient to set learning 'rate', thus approximating to the local minimum of the Cost function.
+Gradient Descent in essence is a process of repeated steps of subtractions from current values of Theta parameters (weights and biases) the mean value of every found gradients for every sample which is multiplied by an epsilon coefficient to set learning 'rate', thus approximating to the local minimum of the Cost function.
 
-Stochastic Gradient Descent modifies vanilla approach in order to drastically accelerate computation via dividing the whole dataset into randomly (stochastically) ordered 'mini-batches' where a processing of a single batch constitutes single step. Since mini-batch is way smaller than a whole dataset, it's processing takes less time, however with less precision.
+Stochastic Gradient Descent modifies vanilla approach in order to drastically accelerate computation via dividing the whole dataset into randomly (stochastically) ordered 'mini-batches' and processing of such a single batch constitutes single step. Since mini-batch is way smaller than a whole dataset, it's processing takes less time, however with less precision.
 
 $$
 \begin{aligned}
@@ -366,7 +366,7 @@ $$
 $$
 
 # 4. Code
-The listing of the pseudo-code for described algorythm is provided in the '/FNN.SGD_MNIST.ipynb' file.
+The listing of the python pseudo-code for described algorithm is provided in the '/FNN.SGD_MNIST.ipynb' file.
 
 # 5. Results
-The provided approach allows a developer to thoroughly understand and implement an algorythm of the FNN architecture for the MNIST classification problem with the optimization of Stochastic Gradient Descent.
+The provided approach allows a developer to thoroughly understand and implement an algorithm of the FNN architecture for the MNIST classification problem with the optimization of Stochastic Gradient Descent.
