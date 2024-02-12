@@ -190,7 +190,7 @@ a^{(y)}_1a^{(y)}\_{10},  & a^{(y)}_2a^{(y)}\_{10},  & ~...~,  & a^{(y)}\_{10}(1-
 &=
 \left[
 \begin{matrix}
-asdf
+\sum\limits_{k=1}^{10} \\
 \end{matrix}
 \right] 
 \end{aligned}
