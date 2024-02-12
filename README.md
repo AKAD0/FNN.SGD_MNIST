@@ -82,7 +82,7 @@ $$
 
 $$
 ~\\~
-a^{(2)}=ReLU=max\{0,z^{(2)}\}=\lbrace
+a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=\lbrace
 \begin{array}{l} 
 z^{(2)}, z^{(2)}>0 \\
 0, z^{(2)}≤0
@@ -114,7 +114,7 @@ $$
 
 $$
 ~\\~
-a^{(1)}=ReLU=max\{0,z^{(1)}\}=
+a^{(1)}=ReLU=max\lbrace 0,z^{(1)}\rbrace=
 \left\{
 \begin{array}{l} 
 z^{(1)}, z^{(1)}>0 \\
