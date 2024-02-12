@@ -176,7 +176,7 @@ $$
 
 $$
 \begin{aligned}
-\text{2)}~\frac{da^{(y)}}{dz^{(y)}}=DZ^{(y)}_{R^{10}}~
+\text{2)}\frac{da^{(y)}}{dz^{(y)}}=DZ^{(y)}_{R^{10}}
 &=\left| \text{Quotient rule} \right| \\
 &=
 \left[ 
