@@ -28,7 +28,9 @@ $$
 Topology consists of 2 hidden layers 10 blocks each, 1 output layer of 10 blocks and 1 input layer of 784 blocks (28*28 pixels of an image to process).
 
 ### 3.2. Computation Graph:
-<center>![alt text](https://github.com/AKAD0/FNN_MNIST/blob/master/Fig2_v2.png)</center>
+<p align="center">
+  <img src="https://github.com/AKAD0/FNN_MNIST/blob/master/Fig2_v2.png">
+</p>
 
 $$
 \text{Fig.2: Computation graph}
