@@ -181,7 +181,7 @@ $$
 &=
 \left[ 
 \begin{matrix} 
-asdf\\
+asdf
 \end{matrix}
 \right] \\
 &=
