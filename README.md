@@ -181,8 +181,8 @@ $$
 &=
 \left[ 
 \begin{matrix} 
-a^{(y)}_1(1-a^{(y)}_1)\\
-a^{(y)}_1(1-a^{(y)}_1)\\
+a^{(y)}_1(1-a^{(y)}_1)&asdf\\
+a^{(y)}_1(1-a^{(y)}_1)&asdf\\
 \end{matrix}
 \right] \\
 &=
