@@ -83,10 +83,12 @@ $$
 $$
 ~\\~
 a^{(2)}=ReLU=max\{0,z^{(2)}\}=
-\left\{ \begin{array}{l} 
+\left\{
+\begin{array}{l} 
 z^{(2)}, z^{(2)}>0 \\
 0, z^{(2)}≤0
-\end{array} \right.
+\end{array}
+\right.
 $$
 
 $$
@@ -115,10 +117,12 @@ $$
 $$
 ~\\~
 a^{(1)}=ReLU=max\{0,z^{(1)}\}=
-\left\{ \begin{array}{l} 
+\left\{
+\begin{array}{l} 
 z^{(1)}, z^{(1)}>0 \\
 0, z^{(1)}≤0
-\end{array} \right.
+\end{array}
+\right.
 $$
 
 $$
