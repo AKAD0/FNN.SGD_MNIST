@@ -5,7 +5,7 @@
     * 3.1. Model
     * 3.2. Computation Graph
     * 3.3. Back Propagation
-    * 3.4. Gradient Descent
+    * 3.4. Stochastic Gradient Descent
 4. Code
 5. Results
 
@@ -270,7 +270,7 @@ $$
 \text{12)}~\frac{dz^{(1)}}{db^{(1)}}=1
 $$
 
-#### Second step. finding 'Theta' derivatives via Chain rule.
+#### Second step. Finding 'Theta' derivatives via Chain rule.
 $$
 \text{1)}~\frac{dC}{dw^{(y)}} = \frac{dC}{da^{(y)}} \frac{da^{(y)}}{dz^{(y)}} \frac{dz^{(y)}}{dw^{(y)}}
 $$
@@ -327,3 +327,7 @@ $$
 &\nabla _{b{(1)}} C = \frac{dC}{db^{(1)}} = S_1 S_2 S_3 \\
 \end{aligned}
 $$
+
+### 3.4. Stochastic Gradient Descent:
+Gradient Descent in essence is the repeated steps of subtractions from current Theta parameters the mean value over every found gradients and multiplied with an epsilon coefficient to set learning 'rate', thus approximating to the local minimum of the Cost function.
+Stochastic Gradient Descent modifies vanilla approach in order to drastically accelerate computation via dividing the whole dataset into randomly (stochastically) ordered 'mini-batches' where a processing of a single batch constitutes single step. Since mini-batch is way smaller than a whole dataset, it's processing takes less time, however with less precision.
