@@ -34,11 +34,9 @@ $$
 \text{Fig.2: Computation graph}
 $$
 
-$w$ and $b$ parameters are vectors of weights and biases respectively. $y$ is a label mark for $\hat{y}=a^{(y)}$ to compare to.
+$w$ and $b$ parameters are vectors of weights and biases respectively. $y$ is a label mark for $\hat{y}=a^{(y)}$ to compare to.$\\$
 
 $$
-\\
-\\
 C=MSE=\frac{1}{10}\sum_{i=1}^{10}(y_i-a_i^{(y)})^2
 $$
 
