@@ -84,7 +84,10 @@ $$
 ~\\~
 a^{(2)}=ReLU=max\{0,z^{(2)}\}=
 \left\{
-asdf
+\begin{array}{l} 
+z^{(2)}, z^{(2)}>0 \\
+0, z^{(2)}≤0
+\end{array}
 \right.
 $$
 
