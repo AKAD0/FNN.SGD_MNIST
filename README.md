@@ -181,13 +181,13 @@ $$
 &=
 \left[ 
 \begin{matrix} 
-asdf
+a^{(y)}_1(1-a^{(y)}_1) \\
 \end{matrix}
 \right] \\
 &=
 \left[
 \begin{matrix} 
-asdf
+\sum\limits_{k=1}^{10} (a^{(y)}_ka^{(y)}_1)-a^{(y)}_1a^{(y)}_1+a^{(y)}_1(1-a^{(y)}_1) \\
 \end{matrix}
 \right] 
 \end{aligned}
