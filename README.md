@@ -84,8 +84,8 @@ $$
 ~\\~
 a^{(2)}=ReLU=max\lbrace 0,z^{(2)}\rbrace=
 \begin{Bmatrix}
-z^{(2)}, z^{(2)}>0 \\
-0, z^{(2)}≤0
+z^{(2)},~z^{(2)}>0 \\
+0,~z^{(2)}≤0
 \end{Bmatrix}
 $$
 
@@ -116,8 +116,8 @@ $$
 ~\\~
 a^{(1)}=ReLU=max\lbrace 0,z^{(1)}\rbrace=
 \begin{Bmatrix}
-z^{(1)}, z^{(1)}>0 \\
-0, z^{(1)}≤0
+z^{(1)},~z^{(1)}>0 \\
+0,~z^{(1)}≤0
 \end{Bmatrix}
 $$
 
