@@ -21,6 +21,7 @@ Project describes the apparatus in 3 parts: Model, Computation Graph, Back Propa
 ## 3.1. Model
 ![alt text](https://github.com/AKAD0/FNN_MNIST/blob/master/Fig1.png)
 
+
 $$
 \text{Fig.1: Topology of the architecture}
 $$
@@ -28,6 +29,7 @@ Topology consists of 2 hidden layers 10 blocks each, 1 output layer of 10 blocks
 
 ### 3.2. Computation Graph:
 ![alt text](https://github.com/AKAD0/FNN_MNIST/blob/master/Fig2.png)
+
 
 $$
 \text{Fig.2: Computation graph}
